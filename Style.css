@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.logo h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.login-button .btn {
+    padding: 10px 20px;
+    background-color: #002766;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: #002766;
+}
+
+.hero h1 span {
+    color: #fadb14;
+    text-decoration: underline;
+}
+
+.hero-image {
+    max-width: 400px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    
+}
+
+.grad-logo{
+    width: 100px;
+    
+    background-color: #fadb14;
+}
+
+.service-card {
+    width: 30%;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+
+.service-card h3 {
+    font-size: 20px;
+    color: #002766;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: start;
+    
+}
+
+.service-card a {
+    text-decoration: none;
+    color: #002766;
+    font-weight: bold;
+}
+
+footer {
+    /* background-color: #002766; */
+    /* color: white; */
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 60px;
+    cursor: pointer;
+}
+
+.footer-links h4 {
+    font-size: 18px;
+}
+
+.footer-links p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
