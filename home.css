@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.logo h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.logout-button .btn {
+  padding: 10px 20px;
+  background-color: #002766;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.content {
+  padding: 50px;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #002766;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  color: #002766;
+}
+
+table td {
+  background-color: #fff;
+}
+
+footer {
+  padding: 20px 50px;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin-bottom: 20px;
+}
+.final {
+  margin-top: 50px;
+}
+
+.footer-links h4 {
+  font-size: 18px;
+}
+
+.footer-links p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+}
